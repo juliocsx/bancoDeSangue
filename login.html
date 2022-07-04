@@ -18,9 +18,10 @@
         <h1>Login</h1>
         <input type="text" placeholder="Usuário" id="usuario"><br>
         <input type="password" placeholder="Senha" id="senha"><br>
-        <a id="botao">
-            <button>Entrar</button>
+        <a>
+            <button onclick="login()">Entrar</button>
         </a>
+        <h1 class="loginFail" style="display: none;" id="login">Usuário ou senha incorreta</h1>
     </div>
 </body>
 <footer>
