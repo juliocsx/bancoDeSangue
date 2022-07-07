@@ -1,27 +1,20 @@
-/*
-//----------------Usuários e Senhas----------------//
+function log() {
 
-let usuario = ["juliocsx", "ze123"]
-let senha = [123456, 234567]
-let nome = ["Julio", "José"]
+    nomeInput = document.getElementById("nome");
+    senhaInput = document.getElementById("senha");
+    // console.log(nomeInput.value);
+    // console.log(senhaInput.value);
 
-//-------------------------------------------------//
+    if (senhaInput.value == "123") {
 
+        document.getElementById("login").style.display="none";
+        document.getElementById("href").href="menu.html";
 
-let contador = 1
-while (contador = 1) {
-    for (var i = 0; i < usuario.length; i++) {
-        check = 0
-        if usuarioInput = usuario[check]
-            console.log ("Usuário correto")
+    } else {
 
-            contador = 0
-        else
-            check++
+        document.getElementById("login").style.display="flex";
+        
     }
 }
-*/
 
-document.querySelector('botao').onclick = function() {
-    alert('Ai! Pare de me cutucar!');
-}
+
