@@ -1,34 +1,20 @@
-function login() {
+function log() {
 
-    //----------Usuários e Senhas cadastrados----------//
+    nomeInput = document.getElementById("nome");
+    senhaInput = document.getElementById("senha");
+    // console.log(nomeInput.value);
+    // console.log(senhaInput.value);
 
-    let usuarioC = ["juliocsx", "ze123"];
-    let senhaC = ["123", "456"];
-    //let nome = ["Julio", "José"];
+    if (senhaInput.value == "123") {
 
-    //-------------------------------------------------//
+        document.getElementById("login").style.display="none";
+        document.getElementById("href").href="menu.html";
 
-    // let contador = true;
-    // let usuarioInput = "juliocsx";//document.getElementById("usuario");
-    // let senhaInput = "123";//document.getElementById("senha");
-    let loginConf = false;
+    } else {
 
-
-    // for (var i = 0; i < usuarioC.length; ++i) {
-    //     check = 0;
-    //     if ((usuarioInput = usuarioC[check]) && (senhaInput = senhaC[check])) {
-    //         loginConf = true;
-    //     } else {
-    //         check++;
-    //     }
-    // }
-
-    if (loginConf = false) {
-        document.getElementById("login").style.display = "flex";
-    } else if (loginConf = true) {
-        window.location = "https://www.google.com/";
+        document.getElementById("login").style.display="flex";
+        
     }
-
 }
 
 
