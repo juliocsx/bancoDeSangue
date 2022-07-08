@@ -2,8 +2,6 @@ function log() {
 
     nomeInput = document.getElementById("nome");
     senhaInput = document.getElementById("senha");
-    // console.log(nomeInput.value);
-    // console.log(senhaInput.value);
 
     if (senhaInput.value == "123") {
 
@@ -16,5 +14,7 @@ function log() {
         
     }
 }
+
+
 
 
