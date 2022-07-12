@@ -13,7 +13,7 @@ header {
     text-align: center;
     background-color: coral;
     font-size: 30px;
-    width: 1349px;
+    width: 1366px;
     height: 155px;
     border-style: solid;
     border-color: grey;
@@ -45,7 +45,7 @@ body {
 footer {
     background-color: coral;
     bottom: 0;
-    width: 1349px;
+    width: 1366px;
     height: 120px;
     margin-top: 60px;
     font-size: small;
@@ -62,7 +62,7 @@ footer {
 /* ------------------ Login ------------------ */
 
 .loginBox{
-    margin-top: 80px;
+    margin-top: 62px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -72,7 +72,6 @@ footer {
     height: 260px;
     border-style: solid;
     border-color: rgb(143, 143, 143);
-    margin-bottom: 10px;
 }
 
 .loginFail{
@@ -86,6 +85,7 @@ footer {
     display: flex;
     margin-top: 9%;
     margin-left: 20px;
+    margin-bottom: 10px;
 }
 
 .descricao {
