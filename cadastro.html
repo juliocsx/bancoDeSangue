@@ -18,8 +18,45 @@
     </div>
 </header>
 <body>
+    <h1 class="fonte">Cadastro de Doador</h1>
     <div class="cadastro-container">
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc3h0iUAYuw8T9f3bQgk60QCWsC_nqF3DHIHBPJ5X5VlwBibg/viewform?embedded=true" width="640" height="1550" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+        <form action="/dados_doadores.php">
+            <label for="name">Nome completo</label><br>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="sex">Sexo</label><br>
+            <select id="sex" name="sex">
+                <option value="Masculino">Masculino</option>
+                <option value="Feminino">Feminino</option>
+            </select><br><br>
+            <label for="birthDate">Data de nascimento</label><br>
+            <input type="date" id="birthDate" name="birthDate"><br><br>
+            <label for="weight">Peso (em Kg)</label><br>
+            <input type="text" id="weight" name="weight"><br><br>
+            <label for="bloodType">Tipo Sanguíneo</label><br>
+            <select type="text" id="bloodType" name="bloodType">
+                <option value="A+">A+</option>
+                <option value="B+">B+</option>
+                <option value="O+">O+</option>
+                <option value="AB+">AB+</option>
+                <option value="A-">A-</option>
+                <option value="B-">B-</option>
+                <option value="O-">O-</option>
+                <option value="AB-">AB-</option>
+            </select><br><br>
+            <label for="phoneNumber">Telefone</label><br>
+            <input type="text" id="phoneNumber" name="phoneNumber" onclick="tel()"><br><br>
+            <label for="emergNumber">Telefone de emergência</label><br>
+            <input type="text" id="emergNumber" name="emergNumber" onclick="tel2()"><br><br>
+            <input type="checkbox" id="hepatitis" name="hepatitis">
+            <label for="hepatite">O doador não passou por algum caso de hepatite após os 11 anos de idade</label><br><br>
+            <input type="checkbox" id="diseases" name="diseases">
+            <label for="hepatite">O doador não possui alguma evidência clínica ou laboratorial das seguintes<br>doenças transmissíveis pelo sangue:<br>Hepatites B e C<br>AIDS (Vírus HIV)<br>Doenças associadas aos vírus HTLV I e II<br>Doença de Chagas</label><br><br>
+            <input type="checkbox" id="drugUse" name="drugUse">
+            <label for="hepatite">O doador não efetuou o uso de drogas ilícitas injetáveis</label><br><br>
+            <input type="checkbox" id="malaria" name="malaria">
+            <label for="hepatite">O doador não contraiu Malária alguma vez na vida</label><br><br>
+            <input type="submit">
+        </form>
     </div>
 </body>
 <footer>

@@ -30,6 +30,10 @@ header {
     font-size: 18px;
 }
 
+.title {
+    padding-left: 60px;
+}
+
 /* ------------------- Body ------------------- */
 
 body {
@@ -38,6 +42,7 @@ body {
     align-items: center;
     margin: 0;
     background-color: #ffd2c2;
+    overflow-x: hidden;
 }
 
 /* ------------------ Footer ------------------ */
@@ -79,6 +84,9 @@ footer {
     font-size: 13px;
 }
 
+.bodyMenu{
+    overflow-y: hidden;
+}
 /* ------------------ Menu ------------------ */
 
 .botoes {
@@ -105,5 +113,5 @@ footer {
 /* ---------------- Cadastro ---------------- */
 
 .cadastro-container{
-    margin-top: 40px;
+    margin-top: 10px;
 }
