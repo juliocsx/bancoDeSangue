@@ -30,6 +30,11 @@ header {
     font-size: 18px;
 }
 
+.welcome {
+    float: left;
+    font-size: 20px;
+    margin-left: 10px;
+}
 /* ------------------- Body ------------------- */
 
 body {
