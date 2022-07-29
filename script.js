@@ -51,4 +51,3 @@ function tel2() {
 // Link:https://pt.stackoverflow.com/questions/51109/como-mascarar-um-input-no-html5
 //
 // --------------------------------------------------------------------- //
-

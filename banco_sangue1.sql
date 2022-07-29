@@ -1,0 +1,3 @@
+--alter session set "_ORACLE_SCRIPT"=true;
+--CREATE USER julio2 IDENTIFIED BY julio2 DEFAULT tablespace users;
+--GRANT connect, resource TO julio2;
