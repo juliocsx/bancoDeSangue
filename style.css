@@ -113,6 +113,7 @@ footer {
 
 /* ---------------- Cadastro ---------------- */
 
-.cadastro-container{
-    margin-top: 10px;
+.cadastro{
+    display: flex;
+    align-items: center;
 }

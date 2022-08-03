@@ -3,7 +3,7 @@
 function log() {
 
     let senhaInput = document.getElementById("senha");
-    let nameInput = document.getElementById("nome");
+    //let nameInput = document.getElementById("nome");
 
     if (senhaInput.value == "123") {
 
@@ -51,3 +51,18 @@ function tel2() {
 // Link:https://pt.stackoverflow.com/questions/51109/como-mascarar-um-input-no-html5
 //
 // --------------------------------------------------------------------- //
+
+function cpf() {
+   console.log("funcionou");
+    var v = i.value;
+    
+    if(isNaN(v[v.length-1])){ // impede entrar outro caractere que não seja número
+       i.value = v.substring(0, v.length-1);
+       return;
+    }
+    
+    i.setAttribute("maxlength", "14");
+    if (v.length == 3 || v.length == 7) i.value += ".";
+    if (v.length == 11) i.value += "-";
+ 
+ }
