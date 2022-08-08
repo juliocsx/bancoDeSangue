@@ -111,9 +111,22 @@ footer {
     color: inherit;
 }
 
+
 /* ---------------- Cadastro ---------------- */
 
 .cadastro{
     display: flex;
     align-items: center;
+}
+
+.block{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.send{
+    display: flex;
+    justify-content: center;
 }

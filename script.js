@@ -1,9 +1,14 @@
+function nome() {
+    let nameInput = document.getElementById("nome");
+    console.log(nome.value);
+    document.getElementById("msg").innerHTML = "Bem-vindo " + nome.value;
+}
+
 // -------------------Nome e senha temporária de login------------------- //
 
 function log() {
 
     let senhaInput = document.getElementById("senha");
-    //let nameInput = document.getElementById("nome");
 
     if (senhaInput.value == "123") {
 

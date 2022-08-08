@@ -13,10 +13,10 @@
     <div>
         <a class="back" href="/menu.html">
             <h1 class="headertext">Voltar</h1>
-            <img src="/imagensOriginais/61449.png" alt="Voltar" width="35px">
+            <img src="/icones/voltar.png" alt="Voltar" width="35px">
         </a>
     </div>
-    <div style="visibility:hidden;">
+    <div>
         <h1 class="welcome">
             Bem vindo
         </h1>
@@ -26,12 +26,12 @@
     </div>
 </header>
 
-<body>
+<body class="bodyMenu">
     <h1 class="fonte">Cadastro de Doador</h1>
-    <div class="cadastro-container">
+    <div>
         <form action="">
             <div class="cadastro">
-                <div>
+                <div class="block">
                     <div>
                         <label for="fullName">Nome completo</label><br>
                         <input type="text" id="fullName" name="fullName"><br><br>
@@ -52,7 +52,7 @@
                         <input type="date" id="birthDate" name="birthDate"><br><br>
                     </div>
                 </div>
-                <div>
+                <div class="block">
                     <div>
                         <label for="bloodType">Tipo Sanguíneo</label><br>
                         <select type="text" id="bloodType" name="bloodType">
@@ -80,10 +80,10 @@
                     </div>
                 </div>
             </div>
-            <div>
-                <input type="submit">
-            </div>
         </form>
+        <div class="send">
+            <input type="submit">
+        </div>
     </div>
 </body>
 <footer>
