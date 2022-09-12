@@ -10,7 +10,6 @@
 /* ------------------ Header ------------------ */
 
 header {
-    text-align: center;
     background-color: coral;
     font-size: 30px;
     width: 1366px;
@@ -30,10 +29,10 @@ header {
     font-size: 18px;
 }
 
-.welcome {
-    float: left;
-    font-size: 20px;
-    margin-left: 10px;
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /* ------------------- Body ------------------- */
 
@@ -65,29 +64,6 @@ footer {
     font-size: 8px;
 }
 
-/* ------------------ Login ------------------ */
-
-.loginBox{
-    margin-top: 62px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-image: linear-gradient(90deg, rgb(253, 185, 160), rgb(255, 156, 119));
-    font-size: 20px;
-    width: 250px;
-    height: 260px;
-    border-style: solid;
-    border-color: rgb(143, 143, 143);
-}
-
-.loginFail{
-    color: red;
-    font-size: 13px;
-}
-
-.bodyMenu{
-    overflow-y: hidden;
-}
 /* ------------------ Menu ------------------ */
 
 .botoes {

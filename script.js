@@ -1,27 +1,3 @@
-function nome() {
-    let nameInput = document.getElementById("nome");
-    console.log(nome.value);
-    document.getElementById("msg").innerHTML = "Bem-vindo " + nome.value;
-}
-
-// -------------------Nome e senha temporária de login------------------- //
-
-function log() {
-
-    let senhaInput = document.getElementById("senha");
-
-    if (senhaInput.value == "123") {
-
-        document.getElementById("login").style.display = "none";
-        document.getElementById("href").href = "menu.html";
-
-    } else {
-
-        document.getElementById("login").style.display = "flex";
-
-    }
-}
-
 // -------------------Mascarando Inputs dos telefones------------------- //
 
 function tel() {

@@ -1,21 +1,23 @@
 const Sequelize = require('sequelize');
 const database = require('../db');
+const Doador = require('./doador')
  
-const Funcionario = database.define('funcionario', {
-    idFuncionario: {
+const Bolsa = database.define('bolsa', {
+    idBolsa: {
         type: Sequelize.INTEGER,
         autoIncrement: true,
         allowNull: false,
         primaryKey: true
     },
-    nomeFuncionario: {
-        type: Sequelize.STRING,
-        allowNull: false
-    },
-    senhaFuncionario: {
+    idDoador: {
         type: Sequelize.STRING,
         allowNull: false
     }
-})
+});
+
+Doador.belongsTo(Bolsa, {
+    constraint: true,
+    foreignKey: 'idDoador'
+});
  
-module.exports = Funcionario;
+module.exports = Bolsa;

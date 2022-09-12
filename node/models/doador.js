@@ -1,6 +1,5 @@
 const Sequelize = require('sequelize');
 const database = require('../db');
-const Funcionario = require('./funcionario')
 
 //TABELA DOADOR
 
@@ -46,13 +45,6 @@ const Doador = database.define('doadores', {
     }
 }, {
     freezeTableName: true
-})
-
-// RELAÇÃO DOADOR - FUNCIONARIO
-
-Doador.belongsTo(Funcionario, {
-    constraint: true,
-    foreignKey: 'idFuncionario'
 })
 
 module.exports = Doador;
